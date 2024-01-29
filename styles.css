@@ -49,3 +49,50 @@ button {
 #runaway-btn {
   left: 60%;
 }
+
+#pop-up{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: 40vh;
+width: 30vw;
+background-color: white;
+border-radius: 20px;
+box-shadow: 2px 2px 50px darkgray;
+text-align: center;
+color: rgb(58, 55, 55);
+animation: fadeIn 0.5s;
+-webkit-animation: fadeIn 0.5s;
+-moz-animation: fadeIn 0.5s;
+-o-animation: fadeIn 0.5s;
+-ms-animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.hide{
+  display: none;
+}

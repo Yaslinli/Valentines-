@@ -20,3 +20,13 @@ const animateMove = (element, prop, pixels) =>
 const getRandomNumber = (num) => {
   return Math.floor(Math.random() * (num + 1));
 };
+
+ // get a reference to p and cache it
+
+
+
+function removeClass(){
+  var p = document.getElementById("pop-up");
+  p.classList.remove("hide");
+}
+document.getElementById("yes").addEventListener("click", removeClass);
